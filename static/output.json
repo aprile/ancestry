@@ -1,0 +1,2760 @@
+[
+  {
+    "pointer": "",
+    "tag": "HEAD",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "SOUR",
+        "data": "webtreeprint.com",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "VERS",
+            "data": "1.0",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "NAME",
+            "data": "webtreeprint",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FILE",
+        "data": "shakespeare.ged",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "GEDC",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "VERS",
+            "data": "5.5.1",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "FORM",
+            "data": "LINEAGE-LINKED",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHAR",
+        "data": "UTF-8",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "SUBM",
+        "data": "@SUB1@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@SUB1@",
+    "tag": "SUBM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "webTreePrint",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0001@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "William /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "William",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "BEF 23 APR 1564",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "26 APR 1564",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "23 APR 1616",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F002@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0002@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Mary /Arden/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Mary",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Arden",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "ABT 1537",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "SEP 1608",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F005@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0003@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "John /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "John",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "ABT 1531",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "07 SEP 1601",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "08 SEP 1601",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F003@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0004@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Anne /Hathaway/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Anne",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Hathaway",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "APR 1556",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Shottery, Warwickshire",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "06 AUG 1623",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F010@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F002@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0005@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Susanna /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Susanna",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "MAY 1583",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "26 MAY 1583",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "11 JUL 1649",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F002@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F006@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0006@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Hamnet /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Hamnet",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "JAN 1585",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "02 FEB 1585",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "AUG 1596",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "11 AUG 1596",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F002@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0007@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Judith /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Judith",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "JAN 1585",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "02 FEB 1585",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "FEB 1662",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "09 FEB 1662",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F002@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F009@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0008@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Joan /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Joan",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "SEP 1558",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "15 SEP 1558",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "AFT SEP 1558",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0009@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Margaret /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Margaret",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "NOV 1562",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "02 DEC 1562",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "APR 1563",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "30 APR 1563",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0010@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Gilbert /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Gilbert",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "OCT 1566",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "JAN 1612",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0011@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Joan /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Joan",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "APR 1569",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "NOV 1646",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0012@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Anne /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Anne",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "SEP 1571",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "APR 1579",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0013@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Richard /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Richard",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "MAR 1574",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "FEB 1613",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0014@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Edmund /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Edmund",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "APR 1580",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "DEC 1607",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F001@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0015@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Richard /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Richard",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "ABT 1490",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "BEF 10 FEB 1561",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F003@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0016@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Henry /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Henry",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1596",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F003@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F004@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0017@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Margaret //",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Margaret",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1597",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F004@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0018@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Agnes /Webbe/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Agnes",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Webbe",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F005@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0019@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Robert /Arden/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Robert",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Arden",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "DEC 1556",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F005@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0020@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "John /Hall/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "John",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Hall",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "TITL",
+        "data": "Dr.",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1575",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "NOV 1635",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F006@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0021@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Elizabeth /Shakespeare/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Elizabeth",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Shakespeare",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "FEB 1608",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "21 FEB 1608",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "FEB 1670",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F006@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F007@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F008@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0022@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Thomas /Nash/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Thomas",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Nash",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1593",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "APR 1647",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F007@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0023@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "John /Barnard/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "John",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Barnard",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "TITL",
+        "data": "Sir",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1674",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F008@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0024@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Thomas /Quiney/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Thomas",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Quiney",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1589",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "ABT 1655",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F009@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F011@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0025@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Shakespeare /Quiney/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Shakespeare",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Quiney",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "NOV 1616",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "23 NOV 1616",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "MAY 1617",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "08 MAY 1617",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F009@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0026@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Richard /Quiney/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Richard",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Quiney",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "FEB 1618",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "09 FEB 1618",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "FEB 1639",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "06 FEB 1639",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F009@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0027@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Thomas /Quiney/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Thomas",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Quiney",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "BIRT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "JAN 1620",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "23 JAN 1620",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "JAN 1639",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "28 JAN 1639",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F009@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0028@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Richard /Hathaway/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Richard",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Hathaway",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "M",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "SEP 1581",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F010@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0029@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Margaret /Wheeler/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Margaret",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Wheeler",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Died in childbirth",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "15 MAR 1616",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F011@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0030@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "Not named /Quiney/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "GIVN",
+            "data": "Not named",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Quiney",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "DEAT",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Died in childbirth",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "BURI",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "15 MAR 1616",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "FAMC",
+        "data": "@F011@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@I0031@",
+    "tag": "INDI",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "NAME",
+        "data": "/Unknown/",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "SURN",
+            "data": "Unknown",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "SEX",
+        "data": "F",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "FAMS",
+        "data": "@F003@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F001@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0003@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0002@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "ABT 1557",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0001@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0008@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0009@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0010@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0011@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0012@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0013@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0014@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F002@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0001@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0004@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "NOV 1582",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0005@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0006@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0007@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F003@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0015@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0031@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0016@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0003@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F004@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0016@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0017@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F005@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0019@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0018@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0002@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F006@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0020@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0005@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "05 JUN 1607",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0021@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F007@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0022@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0021@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1626",
+            "tree": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pointer": "@F008@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0023@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0021@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "1649",
+            "tree": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pointer": "@F009@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0024@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0007@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "DATE",
+            "data": "10 FEB 1616",
+            "tree": []
+          },
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Stratford-upon-Avon",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0025@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0026@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0027@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F010@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0028@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0004@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "@F011@",
+    "tag": "FAM",
+    "data": "",
+    "tree": [
+      {
+        "pointer": "",
+        "tag": "HUSB",
+        "data": "@I0024@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "WIFE",
+        "data": "@I0029@",
+        "tree": []
+      },
+      {
+        "pointer": "",
+        "tag": "MARR",
+        "data": "",
+        "tree": [
+          {
+            "pointer": "",
+            "tag": "PLAC",
+            "data": "Unmarried",
+            "tree": []
+          }
+        ]
+      },
+      {
+        "pointer": "",
+        "tag": "CHIL",
+        "data": "@I0030@",
+        "tree": []
+      }
+    ]
+  },
+  {
+    "pointer": "",
+    "tag": "TRLR",
+    "data": "",
+    "tree": []
+  }
+]
