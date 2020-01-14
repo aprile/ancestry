@@ -1,6 +1,6 @@
 # Ancestry
 
-Convert GEDCOM file to readable bio.
+Convert GEDCOM file to Javascript object.
 
 ## Development
 
