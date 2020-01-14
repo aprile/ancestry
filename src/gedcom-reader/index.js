@@ -20,17 +20,17 @@ function readGedcom (input) {
     if (el.tag === 'FAM') {
       o.husb = getData(el, 'HUSB')
       o.wife = getData(el, 'WIFE')
-      o.marr = pushEvent('MARR')
+      o.marr = pushEvent(el, 'MARR')
       o.children = getChildren(el)
     }
 
     if (el.tag === 'INDI') {
       o.name = getName(el)
       o.sex = getData(el, 'SEX')
-      o.birt = pushEvent('BIRT')
-      o.deat = pushEvent('DEAT')
-      o.buri = pushEvent('BURI')
-      o.chr = pushEvent('CHR')
+      o.birt = pushEvent(el, 'BIRT')
+      o.deat = pushEvent(el, 'DEAT')
+      o.buri = pushEvent(el, 'BURI')
+      o.chr = pushEvent(el, 'CHR')
     }
 
     return o

@@ -1,6 +1,6 @@
 # Ancestry
 
-Test Project
+Convert GEDCOM file to readable bio.
 
 ## Development
 

@@ -24,4 +24,4 @@ function getData (el, type) {
   }
 }
 
-export default (getDataByType, getData)
+export default getData

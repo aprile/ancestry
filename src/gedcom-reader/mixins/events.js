@@ -33,4 +33,4 @@ function pushEvent (el, type) {
   return target
 }
 
-export default (getEvent, pushEvent)
+export default pushEvent
