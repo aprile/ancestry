@@ -42,9 +42,10 @@ function readGedcom (input) {
     obj.forEach(el => { target.push(createEntry(el)) })
 
     console.log('Output:', target)
+    return target
   }
 
-  combineEntries()
+  return combineEntries()
 }
 
 export default readGedcom

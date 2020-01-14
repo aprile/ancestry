@@ -127,7 +127,7 @@ eval("(function (global, factory) {\n\t true ? module.exports = factory() :\n\tu
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mixins_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mixins/data */ \"./src/gedcom-reader/mixins/data.js\");\n/* harmony import */ var _mixins_names__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mixins/names */ \"./src/gedcom-reader/mixins/names.js\");\n/* harmony import */ var _mixins_children__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mixins/children */ \"./src/gedcom-reader/mixins/children.js\");\n/* harmony import */ var _mixins_events__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mixins/events */ \"./src/gedcom-reader/mixins/events.js\");\n\n\n\n\n\nconst gedcom = __webpack_require__(/*! parse-gedcom */ \"./node_modules/parse-gedcom/index.js\")\n\nfunction readGedcom (input) {\n  const parseGedcom = JSON.stringify(gedcom.parse(input), null, 2)\n  const obj = JSON.parse(parseGedcom)\n\n  // obj.forEach(el => console.log(el))\n\n  function createEntry (el) {\n    const o = {\n      id: el.pointer || '',\n      tag: el.tag\n    }\n\n    if (el.tag === 'FAM') {\n      o.husb = Object(_mixins_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(el, 'HUSB')\n      o.wife = Object(_mixins_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(el, 'WIFE')\n      o.marr = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'MARR')\n      o.children = Object(_mixins_children__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(el)\n    }\n\n    if (el.tag === 'INDI') {\n      o.name = Object(_mixins_names__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(el)\n      o.sex = Object(_mixins_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(el, 'SEX')\n      o.birt = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'BIRT')\n      o.deat = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'DEAT')\n      o.buri = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'BURI')\n      o.chr = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'CHR')\n    }\n\n    return o\n  }\n\n  function combineEntries () {\n    const target = []\n\n    obj.forEach(el => { target.push(createEntry(el)) })\n\n    console.log('Output:', target)\n  }\n\n  combineEntries()\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (readGedcom);\n\n\n//# sourceURL=webpack:///./src/gedcom-reader/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mixins_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mixins/data */ \"./src/gedcom-reader/mixins/data.js\");\n/* harmony import */ var _mixins_names__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mixins/names */ \"./src/gedcom-reader/mixins/names.js\");\n/* harmony import */ var _mixins_children__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mixins/children */ \"./src/gedcom-reader/mixins/children.js\");\n/* harmony import */ var _mixins_events__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mixins/events */ \"./src/gedcom-reader/mixins/events.js\");\n\n\n\n\n\nconst gedcom = __webpack_require__(/*! parse-gedcom */ \"./node_modules/parse-gedcom/index.js\")\n\nfunction readGedcom (input) {\n  const parseGedcom = JSON.stringify(gedcom.parse(input), null, 2)\n  const obj = JSON.parse(parseGedcom)\n\n  // obj.forEach(el => console.log(el))\n\n  function createEntry (el) {\n    const o = {\n      id: el.pointer || '',\n      tag: el.tag\n    }\n\n    if (el.tag === 'FAM') {\n      o.husb = Object(_mixins_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(el, 'HUSB')\n      o.wife = Object(_mixins_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(el, 'WIFE')\n      o.marr = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'MARR')\n      o.children = Object(_mixins_children__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(el)\n    }\n\n    if (el.tag === 'INDI') {\n      o.name = Object(_mixins_names__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(el)\n      o.sex = Object(_mixins_data__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(el, 'SEX')\n      o.birt = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'BIRT')\n      o.deat = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'DEAT')\n      o.buri = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'BURI')\n      o.chr = Object(_mixins_events__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(el, 'CHR')\n    }\n\n    return o\n  }\n\n  function combineEntries () {\n    const target = []\n\n    obj.forEach(el => { target.push(createEntry(el)) })\n\n    console.log('Output:', target)\n    return target\n  }\n\n  return combineEntries()\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (readGedcom);\n\n\n//# sourceURL=webpack:///./src/gedcom-reader/index.js?");
 
 /***/ }),
 
@@ -199,7 +199,55 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction getTags (data, tag) 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _gedcom_reader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gedcom-reader */ \"./src/gedcom-reader/index.js\");\n\n\nconst inputFile = document.querySelector('#file-input')\n\ninputFile.addEventListener('change', (event) => {\n  readFile(event.target)\n})\n\nfunction readFile (input) {\n  const file = input.files[0]\n  const reader = new window.FileReader()\n  const displayResult = document.querySelector('.result')\n\n  reader.readAsText(file)\n\n  reader.onload = function () {\n    const output = reader.result\n    Object(_gedcom_reader__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(output)\n    displayResult.textContent = JSON.stringify(reader.result)\n  }\n\n  reader.onerror = function () {\n    displayResult.textContent = 'Error'\n  }\n}\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _gedcom_reader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./gedcom-reader */ \"./src/gedcom-reader/index.js\");\n/* harmony import */ var _translator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./translator */ \"./src/translator/index.js\");\n\n\n\nconst inputFile = document.querySelector('#file-input')\n\ninputFile.addEventListener('change', (event) => {\n  readFile(event.target)\n})\n\nfunction readFile (input) {\n  const file = input.files[0]\n  const reader = new window.FileReader()\n  const displayResult = document.querySelector('.result')\n\n  reader.readAsText(file)\n\n  reader.onerror = function () {\n    displayResult.textContent = 'Error'\n  }\n\n  reader.onload = function () {\n    const output = reader.result\n\n    const o = Object(_gedcom_reader__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(output)\n    const display = Object(_translator__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(o)\n    displayResult.textContent = display\n  }\n}\n\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/translator/index.js":
+/*!*********************************!*\
+  !*** ./src/translator/index.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mixins_personName__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mixins/personName */ \"./src/translator/mixins/personName.js\");\n/* harmony import */ var _mixins_personBirth__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mixins/personBirth */ \"./src/translator/mixins/personBirth.js\");\n/* harmony import */ var _mixins_personDeath__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mixins/personDeath */ \"./src/translator/mixins/personDeath.js\");\n\n\n\n\nfunction gedcomTranslate (data) {\n  return Object(_mixins_personName__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(data[4]) + Object(_mixins_personBirth__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(data[4]) + Object(_mixins_personDeath__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(data[4])\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (gedcomTranslate);\n\n\n//# sourceURL=webpack:///./src/translator/index.js?");
+
+/***/ }),
+
+/***/ "./src/translator/mixins/personBirth.js":
+/*!**********************************************!*\
+  !*** ./src/translator/mixins/personBirth.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction personBirth (data) {\n  const person = data\n\n  const birthDate = person.birt[0].date\n  const birthPlace = person.birt[0].place\n\n  const str0 = 'was born'\n  const str1 = 'on'\n  const str2 = 'in'\n  const str3 = '. '\n\n  return ` ${str0} ${str1} ${birthDate} ${str2} ${birthPlace}${str3}`\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personBirth);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personBirth.js?");
+
+/***/ }),
+
+/***/ "./src/translator/mixins/personDeath.js":
+/*!**********************************************!*\
+  !*** ./src/translator/mixins/personDeath.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction personDeath (data) {\n  const person = data\n\n  const birthDate = person.birt[0].date\n  const deathDate = person.deat[0].date\n  const deathPlace = person.deat[0].place\n\n  function getYear (date) {\n    var year = date.match(/\\d{4}/)\n    return year\n  }\n\n  //\n  // TODO Make specific to day\n  //\n  const deathAge = (birth, death) => {\n    const b = getYear(birth)\n    const d = getYear(death)\n    console.log('BIRTH', b, 'DEATH', d)\n    return (d - b)\n  }\n\n  function getPronoun (person) {\n    const gender = person.sex.data.toString()\n\n    if (gender === 'M') return 'he'\n    else if (gender === 'F') return 'she'\n    else return 'they'\n  }\n\n  getPronoun(person)\n\n  const str0 = 'passed away'\n  const str1 = 'on'\n  const str2 = 'in'\n\n  return `${getPronoun(person)} ${str0} ${str1} ${deathDate} ${str2} ${deathPlace}, at the age of ${deathAge(birthDate, deathDate)}.`\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personDeath);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personDeath.js?");
+
+/***/ }),
+
+/***/ "./src/translator/mixins/personName.js":
+/*!*********************************************!*\
+  !*** ./src/translator/mixins/personName.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction personName (data) {\n  const person = data\n\n  const firstName = person.name.givn\n  const lastName = person.name.surn\n\n  return `${firstName} ${lastName}`\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personName);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personName.js?");
 
 /***/ })
 

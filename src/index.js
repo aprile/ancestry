@@ -1,4 +1,5 @@
 import readGedcom from './gedcom-reader'
+import gedcomTranslate from './translator'
 
 const inputFile = document.querySelector('#file-input')
 
@@ -13,13 +14,15 @@ function readFile (input) {
 
   reader.readAsText(file)
 
-  reader.onload = function () {
-    const output = reader.result
-    readGedcom(output)
-    displayResult.textContent = JSON.stringify(reader.result)
-  }
-
   reader.onerror = function () {
     displayResult.textContent = 'Error'
+  }
+
+  reader.onload = function () {
+    const output = reader.result
+
+    const o = readGedcom(output)
+    const display = gedcomTranslate(o)
+    displayResult.textContent = display
   }
 }
