@@ -1,6 +1,6 @@
 import getTags from './tags'
 
-function getEvent (el, type) {
+function getEventData (el, type) {
   if (!el.tree) return
 
   const node = getTags(el.tree, type)[0]
@@ -23,8 +23,8 @@ function getEvent (el, type) {
   return o
 }
 
-function pushEvent (el, type) {
-  const event = getEvent(el, type)
+function getEvent (el, type) {
+  const event = getEventData(el, type)
   const target = []
 
   if (event && event !== undefined) {
@@ -33,4 +33,4 @@ function pushEvent (el, type) {
   return target
 }
 
-export default pushEvent
+export default getEvent

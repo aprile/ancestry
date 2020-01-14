@@ -1,7 +1,7 @@
 import getData from './mixins/data'
 import getName from './mixins/names'
 import getChildren from './mixins/children'
-import pushEvent from './mixins/events'
+import getEvent from './mixins/events'
 
 const gedcom = require('parse-gedcom')
 
@@ -20,17 +20,17 @@ function readGedcom (input) {
     if (el.tag === 'FAM') {
       o.husb = getData(el, 'HUSB')
       o.wife = getData(el, 'WIFE')
-      o.marr = pushEvent(el, 'MARR')
+      o.marr = getEvent(el, 'MARR')
       o.children = getChildren(el)
     }
 
     if (el.tag === 'INDI') {
       o.name = getName(el)
       o.sex = getData(el, 'SEX')
-      o.birt = pushEvent(el, 'BIRT')
-      o.deat = pushEvent(el, 'DEAT')
-      o.buri = pushEvent(el, 'BURI')
-      o.chr = pushEvent(el, 'CHR')
+      o.birt = getEvent(el, 'BIRT')
+      o.deat = getEvent(el, 'DEAT')
+      o.buri = getEvent(el, 'BURI')
+      o.chr = getEvent(el, 'CHR')
     }
 
     return o
