@@ -1,4 +1,4 @@
-import getTags from './getTags'
+import getTags from './tags'
 
 function getEvent (el, type) {
   if (!el.tree) return

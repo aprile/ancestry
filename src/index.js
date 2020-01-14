@@ -1,7 +1,6 @@
 import readGedcom from './gedcom-reader'
 
 const inputFile = document.querySelector('#file-input')
-const displayResult = document.querySelector('.result')
 
 inputFile.addEventListener('change', (event) => {
   readFile(event.target)
@@ -10,6 +9,7 @@ inputFile.addEventListener('change', (event) => {
 function readFile (input) {
   const file = input.files[0]
   const reader = new window.FileReader()
+  const displayResult = document.querySelector('.result')
 
   reader.readAsText(file)
 

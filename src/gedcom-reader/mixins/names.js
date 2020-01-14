@@ -1,4 +1,4 @@
-import getTags from './getTags'
+import getTags from './tags'
 
 function getName (el) {
   if (!el.tree) return

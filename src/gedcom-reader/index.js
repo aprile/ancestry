@@ -1,7 +1,7 @@
-import getData from './mixins/getData'
-import getName from './mixins/getName'
-import getChildren from './mixins/getChildren'
-import pushEvent from './mixins/getEvent'
+import getData from './mixins/data'
+import getName from './mixins/names'
+import getChildren from './mixins/children'
+import pushEvent from './mixins/events'
 
 const gedcom = require('parse-gedcom')
 
@@ -36,7 +36,7 @@ function readGedcom (input) {
     return o
   }
 
-  function getIndividuals () {
+  function combineEntries () {
     const target = []
 
     obj.forEach(el => { target.push(createEntry(el)) })
@@ -44,7 +44,7 @@ function readGedcom (input) {
     console.log('Output:', target)
   }
 
-  getIndividuals()
+  combineEntries()
 }
 
 export default readGedcom

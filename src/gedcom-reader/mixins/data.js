@@ -1,5 +1,8 @@
-import getTags from './getTags'
+import getTags from './tags'
 
+//
+// Get tag data by "tag" type
+//
 function getDataByType (el, type) {
   if (!el.tree) return
 
