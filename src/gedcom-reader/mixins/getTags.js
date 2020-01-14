@@ -1,4 +1,4 @@
-const getByTag = (data, tag) => {
+function getTags (data, tag) {
   const d = data.filter(el => el.tag === tag)
 
   if (d.length > 0) {
@@ -12,4 +12,4 @@ const getByTag = (data, tag) => {
   return []
 }
 
-export default getByTag
+export default getTags
