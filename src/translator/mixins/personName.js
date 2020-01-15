@@ -1,10 +1,11 @@
 function personName (data) {
   const person = data
 
-  const firstName = person.name.givn
-  const lastName = person.name.surn
+  const fName = person.name.givn
+  const lName = person.name.surn
 
-  return `${firstName} ${lastName}`
+  if (fName && lName) return `${fName} ${lName}`
+  else return person.name.data
 }
 
 export default personName

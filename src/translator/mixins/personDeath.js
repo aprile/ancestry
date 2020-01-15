@@ -16,7 +16,6 @@ function personDeath (data) {
   const deathAge = (birth, death) => {
     const b = getYear(birth)
     const d = getYear(death)
-    console.log('BIRTH', b, 'DEATH', d)
     return (d - b)
   }
 
@@ -30,11 +29,14 @@ function personDeath (data) {
 
   getPronoun(person)
 
-  const str0 = 'passed away'
-  const str1 = 'on'
-  const str2 = 'in'
+  const str0 = ' passed away '
+  const str1 = ' on '
+  const str2 = ' in '
+  const str3 = ', at the age of '
 
-  return `${getPronoun(person)} ${str0} ${str1} ${deathDate} ${str2} ${deathPlace}, at the age of ${deathAge(birthDate, deathDate)}.`
+  return `
+    ${getPronoun(person)}${str0}${str1}${deathDate}${str2}${deathPlace}${str3}${deathAge(birthDate, deathDate)}.
+  `
 }
 
 export default personDeath

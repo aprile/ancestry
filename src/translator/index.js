@@ -3,7 +3,8 @@ import personBirth from './mixins/personBirth'
 import personDeath from './mixins/personDeath'
 
 function gedcomTranslate (data) {
-  return personName(data[4]) + personBirth(data[4]) + personDeath(data[4])
+  const d = data[2]
+  return personName(d) + personBirth(d) + personDeath(d)
 }
 
 export default gedcomTranslate
