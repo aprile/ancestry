@@ -37,9 +37,13 @@ function readGedcom (input) {
   }
 
   function combineEntries () {
-    const target = []
+    const target = {
+      entries: []
+    }
 
-    obj.forEach(el => { target.push(createEntry(el)) })
+    obj.forEach(el => {
+      target.entries.push(createEntry(el))
+    })
 
     console.log('Output:', target)
     return target

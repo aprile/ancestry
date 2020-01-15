@@ -22,7 +22,6 @@ function readFile (input) {
     const output = reader.result
 
     const o = readGedcom(output)
-    const display = gedcomTranslate(o)
-    displayResult.textContent = display
+    gedcomTranslate(o)
   }
 }
