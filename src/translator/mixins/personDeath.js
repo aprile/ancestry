@@ -1,47 +1,67 @@
+import formatDate from './formatDate'
+import formatPronoun from './formatPronoun'
+
+function capitalizeStr (string) {
+  return string.charAt(0).toUpperCase() + string.slice(1)
+}
+
+function getYear (date) {
+  var year = date.match(/\d{4}/)
+  return year
+}
+
 function personDeath (data) {
   if (data.tag && data.tag !== 'INDI') return
 
   const person = data
 
-  if (person.deat && person.deat.length <= 0) return
+  if (person.deat && !person.deat.length) return
 
-  // const birthDate = person.birt[0].date
-  const deathDate = person.deat[0].date
+  let result = ''
+
+  const pronoun = formatPronoun(person)
+  result += capitalizeStr(pronoun) + ' passed away'
+
+  let deathDate = person.deat[0].date
   const deathPlace = person.deat[0].place
 
-  // function getYear (date) {
-  //   var year = date.match(/\d{4}/)
-  //   return year
-  // }
-  //
-  // const deathAge = (birth, death) => {
-  //   // make specific to day
-  //   const b = getYear(birth)
-  //   const d = getYear(death)
-  //   return (d - b)
-  // }
+  if (deathDate) {
+    //
+    // AND birth date
+    //
+    const birth = person.birt && person.birt.length
 
-  function getPronoun (person) {
-    if (!person.sex) return
-    if (person.sex.data === undefined) return 'they'
+    if (birth) {
+      const birthDate = person.birt[0].date
 
-    const gender = person.sex.data.toString()
+      if (birthDate) {
+        const deathAge = (birth, death) => {
+          if (!birth || !death) return
+          //
+          // TODO make specific to day
+          //
+          const b = getYear(birth)
+          const d = getYear(death)
+          return (d - b)
+        }
 
-    if (gender === 'M') return 'he'
-    else if (gender === 'F') return 'she'
-    else return 'they'
+        if (deathAge) {
+          result += ' at the age of ' + deathAge(birthDate, deathDate) + ', '
+        }
+      }
+    }
+
+    deathDate = formatDate(deathDate)
+    result += ' on ' + deathDate
   }
 
-  getPronoun(person)
+  if (deathPlace) {
+    result += ' in ' + deathPlace
+  }
 
-  const str0 = ' passed away '
-  const str1 = ' on '
-  const str2 = ' in '
-  // const str3 = ', at the age of '
+  result += '. '
 
-  return `
-    ${getPronoun(person)}${str0}${str1}${deathDate}${str2}${deathPlace}.
-  `
+  return result
 }
 
 export default personDeath

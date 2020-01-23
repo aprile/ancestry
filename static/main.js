@@ -215,6 +215,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mix
 
 /***/ }),
 
+/***/ "./src/translator/mixins/formatDate.js":
+/*!*********************************************!*\
+  !*** ./src/translator/mixins/formatDate.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction formatDate (date) {\n  let result = ''\n\n  if (date.match(/BEF/)) date = date.replace(/BEF/, 'before')\n  else if (date.match(/ABT/)) date = date.replace(/ABT/, 'about')\n  else if (date.match(/AFT/)) date = date.replace(/AFT/, 'after')\n\n  if (date.match(/JAN/)) date = date.replace(/JAN/, 'January')\n  if (date.match(/FEB/)) date = date.replace(/FEB/, 'February')\n  if (date.match(/MAR/)) date = date.replace(/MAR/, 'March')\n  if (date.match(/APR/)) date = date.replace(/APR/, 'April')\n  if (date.match(/MAY/)) date = date.replace(/MAY/, 'May')\n  if (date.match(/JUN/)) date = date.replace(/JUN/, 'June')\n  if (date.match(/JUL/)) date = date.replace(/JUL/, 'July')\n  if (date.match(/AUG/)) date = date.replace(/AUG/, 'August')\n  if (date.match(/SEP/)) date = date.replace(/SEP/, 'September')\n  if (date.match(/OCT/)) date = date.replace(/OCT/, 'October')\n  if (date.match(/NOV/)) date = date.replace(/NOV/, 'November')\n  if (date.match(/DEC/)) date = date.replace(/DEC/, 'December')\n\n  result = date\n\n  return result\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (formatDate);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/formatDate.js?");
+
+/***/ }),
+
+/***/ "./src/translator/mixins/formatPronoun.js":
+/*!************************************************!*\
+  !*** ./src/translator/mixins/formatPronoun.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nfunction getPronoun (person) {\n  if (!person.sex) return\n  if (person.sex.data === undefined) return 'they'\n\n  const gender = person.sex.data.toString()\n\n  if (gender === 'M') return 'he'\n  else if (gender === 'F') return 'she'\n  else return 'they'\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (getPronoun);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/formatPronoun.js?");
+
+/***/ }),
+
 /***/ "./src/translator/mixins/personBirth.js":
 /*!**********************************************!*\
   !*** ./src/translator/mixins/personBirth.js ***!
@@ -223,7 +247,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mix
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction personBirth (data) {\n  if (data.tag && data.tag !== 'INDI') return\n\n  const person = data\n\n  if (person.birt && person.birt.length <= 0) return\n\n  const birthDate = person.birt[0].date\n  const birthPlace = person.birt[0].place\n\n  const str0 = 'was born'\n  const str1 = 'on'\n  const str2 = 'in'\n  const str3 = '. '\n\n  return ` ${str0} ${str1} ${birthDate} ${str2} ${birthPlace}${str3}`\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personBirth);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personBirth.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _formatDate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./formatDate */ \"./src/translator/mixins/formatDate.js\");\n\n\nfunction personBirth (data) {\n  if (data.tag && data.tag !== 'INDI') return\n\n  const person = data\n  let result = ''\n\n  if (person.birt && !person.birt.length) return result\n\n  //\n  // birth date\n  //\n  let birthDate = person.birt[0].date\n\n  if (birthDate) {\n    birthDate = Object(_formatDate__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(birthDate)\n    result += ' was born ' + birthDate\n  }\n\n  //\n  // birth place\n  //\n  const birthPlace = person.birt[0].place\n\n  if (birthPlace) {\n    result += ' in ' + birthPlace\n  }\n\n  result += '. '\n\n  return result\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personBirth);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personBirth.js?");
 
 /***/ }),
 
@@ -235,7 +259,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nfunction personBirth (data) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction personDeath (data) {\n  if (data.tag && data.tag !== 'INDI') return\n\n  const person = data\n\n  if (person.deat && person.deat.length <= 0) return\n\n  // const birthDate = person.birt[0].date\n  const deathDate = person.deat[0].date\n  const deathPlace = person.deat[0].place\n\n  // function getYear (date) {\n  //   var year = date.match(/\\d{4}/)\n  //   return year\n  // }\n  //\n  // const deathAge = (birth, death) => {\n  //   // make specific to day\n  //   const b = getYear(birth)\n  //   const d = getYear(death)\n  //   return (d - b)\n  // }\n\n  function getPronoun (person) {\n    if (!person.sex) return\n    if (person.sex.data === undefined) return 'they'\n\n    const gender = person.sex.data.toString()\n\n    if (gender === 'M') return 'he'\n    else if (gender === 'F') return 'she'\n    else return 'they'\n  }\n\n  getPronoun(person)\n\n  const str0 = ' passed away '\n  const str1 = ' on '\n  const str2 = ' in '\n  // const str3 = ', at the age of '\n\n  return `\n    ${getPronoun(person)}${str0}${str1}${deathDate}${str2}${deathPlace}.\n  `\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personDeath);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personDeath.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _formatDate__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./formatDate */ \"./src/translator/mixins/formatDate.js\");\n/* harmony import */ var _formatPronoun__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./formatPronoun */ \"./src/translator/mixins/formatPronoun.js\");\n\n\n\nfunction capitalizeStr (string) {\n  return string.charAt(0).toUpperCase() + string.slice(1)\n}\n\nfunction getYear (date) {\n  var year = date.match(/\\d{4}/)\n  return year\n}\n\nfunction personDeath (data) {\n  if (data.tag && data.tag !== 'INDI') return\n\n  const person = data\n\n  if (person.deat && !person.deat.length) return\n\n  let result = ''\n\n  const pronoun = Object(_formatPronoun__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(person)\n  result += capitalizeStr(pronoun) + ' passed away'\n\n  let deathDate = person.deat[0].date\n  const deathPlace = person.deat[0].place\n\n  if (deathDate) {\n    //\n    // AND birth date\n    //\n    const birth = person.birt && person.birt.length\n\n    if (birth) {\n      const birthDate = person.birt[0].date\n\n      if (birthDate) {\n        const deathAge = (birth, death) => {\n          if (!birth || !death) return\n          //\n          // TODO make specific to day\n          //\n          const b = getYear(birth)\n          const d = getYear(death)\n          return (d - b)\n        }\n\n        if (deathAge) {\n          result += ' at the age of ' + deathAge(birthDate, deathDate) + ', '\n        }\n      }\n    }\n\n    deathDate = Object(_formatDate__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(deathDate)\n    result += ' on ' + deathDate\n  }\n\n  if (deathPlace) {\n    result += ' in ' + deathPlace\n  }\n\n  result += '. '\n\n  return result\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (personDeath);\n\n\n//# sourceURL=webpack:///./src/translator/mixins/personDeath.js?");
 
 /***/ }),
 

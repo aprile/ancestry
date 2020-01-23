@@ -1,19 +1,35 @@
+import formatDate from './formatDate'
+
 function personBirth (data) {
   if (data.tag && data.tag !== 'INDI') return
 
   const person = data
+  let result = ''
 
-  if (person.birt && person.birt.length <= 0) return
+  if (person.birt && !person.birt.length) return result
 
-  const birthDate = person.birt[0].date
+  //
+  // birth date
+  //
+  let birthDate = person.birt[0].date
+
+  if (birthDate) {
+    birthDate = formatDate(birthDate)
+    result += ' was born ' + birthDate
+  }
+
+  //
+  // birth place
+  //
   const birthPlace = person.birt[0].place
 
-  const str0 = 'was born'
-  const str1 = 'on'
-  const str2 = 'in'
-  const str3 = '. '
+  if (birthPlace) {
+    result += ' in ' + birthPlace
+  }
 
-  return ` ${str0} ${str1} ${birthDate} ${str2} ${birthPlace}${str3}`
+  result += '. '
+
+  return result
 }
 
 export default personBirth
